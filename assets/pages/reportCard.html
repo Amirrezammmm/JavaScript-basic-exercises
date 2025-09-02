@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card</title>
+</head>
+<body>
+    <div id="input-section">
+        <label for="name">name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <label for="Lastname">Lastname:</label>
+        <input type="text" id="Lastname" placeholder="Enter your Lastname">
+        <br>
+        <label for="math">math:</label>
+        <input type="text" id="math" placeholder="Enter your math score">
+        <br>
+        <label for="english">english:</label>
+        <input type="text" id="english" placeholder="Enter your english score">
+        <br>
+        <label for="physics">physics</label>
+        <input type="text" id="physics" placeholder="Enter your physics score">
+        <br>
+        <button type="button" onclick="report_card()">Show Report Card</button>
+    </div>
+    <div id="table-container"></div>
+    <button id="back-to-form" style="display: none;" onclick="goBack()">Edit Information</button>
+    <script src="../js/ReportCard.js"></script>
+</body>
+    
+</html>

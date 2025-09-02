@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <label for="name">name: </label>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+        <label for="lastName">Last Name: </label>
+        <input type="text" id="lastName" placeholder="Enter your lastName"><br><br>
+        <label for="age">age: </label>
+        <input type="number" id="age"  placeholder="18"><br><br>
+        <label for="email">email: </label>
+        <input type="email" id="email" placeholder="example@email.com"><br><br>
+        <label for="password">password: </label>
+        <input type="password" id="password" placeholder="Enter a password"><br><br>
+        <label for="repeatPassword">repeat Password: </label>
+        <input type="password" id="repeatPassword" placeholder="repeat your Password"><br><br>
+        <button type="button" onclick="show_result()">submit</button>
+        <button type="button" onclick="resetForm()">reset</button>
+    </form>
+    <div class="error"></div>
+
+ 
+    
+</body>
+<script src="../js/form.js"></script>
+</html>

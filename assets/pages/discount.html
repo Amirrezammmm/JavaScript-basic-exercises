@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discount Calculator</title>
+</head>
+<body>
+
+    <label for="price">Price: </label>
+    <input type="text" id="price" placeholder="Enter price"><br><br>
+
+    <label for="discount">Discount (%): </label>
+    <input type="text" id="discount" placeholder="Enter discount"><br><br>
+
+    <label for="total">Total: </label>
+    <input type="text" id="total" placeholder="Total" disabled><br><br>
+
+    <button type="button" onclick="discount()">Calculate</button>
+    <button type="button" onclick="clearFields()">Clear</button>
+    
+
+
+    <script src="../js/discount.js"></script>
+</body>
+</html>

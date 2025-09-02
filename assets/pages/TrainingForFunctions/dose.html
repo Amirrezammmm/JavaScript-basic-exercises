@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dose</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+        }
+        #board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(3, 100px);
+            gap: 5px;
+        }
+        .cell {
+            background-color: #fff;
+            border: 2px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            cursor: pointer;
+        }
+        .cell:hover {
+            background-color: #ddd;
+        }
+        #status {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+        button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="board"></div>
+    <div id="status">نوبت: X</div>
+    <button onclick="resetGame()">شروع مجدد</button>
+
+    
+
+</body>
+<script src="../../js/TrainingForFunctions/dose.js"></script>
+</html>
+
